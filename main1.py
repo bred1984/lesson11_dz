@@ -1,8 +1,11 @@
-print('1111')
-print(1234)
-class h:
-    def printt(self,s:str):
+
+class pprint:
+    @staticmethod
+    def print(s:str):
         print(s)
 
-p=h()
-p.printt('sdcsadc11')
+    @staticmethod
+    def print_dict(ddd:dict):
+        pass
+
+pprint.print('asdc')
